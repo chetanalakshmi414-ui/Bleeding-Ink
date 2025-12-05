@@ -1,0 +1,338 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Text Beside Image Example</title>
+  <style>
+    /* Basic page styling */
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      line-height: 1.5;
+      margin: 24px;
+      color: #111;
+    }
+
+    /* separator */
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ddd;
+      margin: 24px 0;
+    }
+
+    /* Container that holds image + text side-by-side */
+    .side-by-side {
+      display: flex;
+      gap: 20px;                 /* space between image and text */
+      align-items: flex-start;   /* align at top */
+      flex-wrap: wrap;          /* allow wrapping on small screens */
+    }
+
+    /* Image wrapper: keeps image aspect and allows easy sizing */
+    .img-wrap {
+      flex: 0 0 200px;          /* preferred width (won't grow) */
+      max-width: 40%;           /* prevents it from being too wide on large screens */
+    }
+
+    .img-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    /* Text column: takes remaining space */
+    .text {
+      flex: 1 1 280px;          /* grow to fill remaining space, allow shrinking */
+      min-width: 180px;
+    }
+
+    /* Small screen adjustments */
+    @media (max-width: 640px) {
+      .side-by-side {
+        gap: 12px;
+      }
+      .img-wrap {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+      .text {
+        flex-basis: 100%;
+      }
+    }
+
+    /* Optional small helper classes */
+    .caption { font-size: 0.95rem; color: #555; margin-bottom: 8px; }
+    h1 { margin: 0 0 8px 0; font-size: 1.2rem; }
+  </style>
+</head>
+<body>
+
+  <h1 style="background-color:Yellow";> BRIEF STUDY ABOUT COGNITIVE PSYCHOLOGY
+  <hr>
+
+  <div class="side-by-side" aria-label="Image and text side by side example">
+    <div class="img-wrap" role="img" aria-label="A descriptive image">
+      <!-- Replace the src with your image path -->
+      <img src="C:\Users\CHANDU\Desktop\COGNITIVE.png"; alt="Description of image">
+      <div class="caption">cognitive psychology</div>
+    </div>
+
+    <div class="text">
+    	<body style="background-color:Light Blue";> 
+      <h1>  INTRODUCTION~</h1>
+      <h1>
+        Cognitive Psychology is another branch which deals with the logical-thinking, analyzation, critical thinking and problem-solving skills of the human brain.
+      </h1>
+
+      <h1>
+        It emphasizes about the mesmerizing critical analysis and problem-solving skills a person bears and the significant psychology behind the circumstance.
+      </h1>
+    </div>
+  </div>
+  <hr> 
+  <h1 style="background-color:Pink";> KEYPOINTS OF COGNITIVE PSYCHOLOGY </h1>
+  <h3> 1) PERCEPTION:HOW WE TAKE IN THE INFORMATION AND INTEREPRET THINGS. </h3>
+  <h3> 2)MEMORY:STORAGE OF INFORMATION IN THE HUMAN BRAIN AND WORKING OF EVERY NEURON IN STORING THE INFORMATION. </h3>
+  <h3> 3)CRITICAL ANALYSIS:DEEP ANALYZATION AND OBSERVATION OF THINGS WHICH ARE CONNECTED WITH PHILOSOPHY AND THE UNIVERSE. </h3>
+  <h3> 4)THINKING AND REASONING:PREVAILANCE OF RATIONALISM AND DEEP THINKING </h3>
+  <h3> 5)LANGUAGE DEVELOPMENT: SINCE THE PERCEPTION PLAYS A MAJOR ROLE IN COGNITIVE DEVELOPMENT, IT IS DIRECTLY PROPORTIONAL TO THE LANGUAGE DEVELOPMENT AS WELL. INTERPRETATION OF THINGS ADDS ON TO THE ENHANCEMENT OF LANGUAGE AND VOCABULARY AS WELL. </h3>
+  <hr> 
+  <table border="1">
+  	<tr> 
+  		<th> <h1> CERTAIN THEORIES ILLUSTRATING COGNITIVE PSYCHOLOGY </h1> </th>
+  	</tr>
+  <tr>
+  	<td> 1)INFORMATION PROCESSING THEORY </td>
+  </tr>
+  <tr> 
+  	<td> 2)PIAGET'S THEORY OF COGNITIVE DEVELOPMENT </td>
+  </tr>
+  <tr> 
+  	<td> 3)SCHEMA AND DUAL PROCESS THEORY </td>
+  	<tr> 
+  		<td> 4)VYGOTSKY'S THEORY OF COGNITIVE DEVELOPMENT </td>
+  </tr>
+</table>
+<hr> 
+<h1 style="background-color:Yellow";> THE INFORMATION PROCESSING THEORY (Famous theory by George Miller)</h1>
+<h4> We all are aware about the working of a computer and the essential elements of a desktop, George Miller in the same way proposed the information processing theory which compares the human mind to a computer. It emphasizes the working of a human mind similar to a computer.</h4>
+<h1>  HUMAN BRAIN HAS THIS ENORMOUS POWER OF STORING, RETRIVING AND PROCESSING INFORMATION OF VARIOUS KINDS.</h1>
+<table border="2">
+	<tr> 
+		<th> <h1> GRADES OF INFORMATION-PROCESSING </h1> </th> 
+	</tr>
+	<tr> 
+		<td> FIRST STAGE- INPUT (ENCODING) 
+		FIRST STEP OF INFORMATION- <h1> PROCESSING </h1> THE INPUT IS TAKEN INTO THE BRAIN BY OUR SENSES (TOUCH,VISION OR HEARING). IF IT IS A PLEASANT INFORMATION, THE BRAIN RELEASES A CHEMICAL KNOWN AS DOPAMINE WHICH GIVES US A SLIGHT HAPPY OR SATSIFIED FEELING. </td>
+	</tr>
+	<tr> 
+		<td> 2)SECOND STAGE- <h1> PROCESSING </h1> (NEXT STEP AFTER THE ENTRY OF INPUT INTO BRAIN):YOUR BRAIN PROCESSES THE INFORMATION, ANALYZES AND INTEREPRETS IT. </td>
+	</tr>
+	<tr>
+		<td> 3)THIRD STAGE- <h1> STORAGE </h1> Your brain tends to find tricks to store the information or at certain times, it just stores somehow. </td>
+	</tr> 
+</table>
+<table border="1">
+	<tr>
+		<td>
+<h3 style="background-color:Yellow";> KEYPOINT TO BE NOTED: DURING THE MOST WORST, BEST OR NORMAL PHASE OF LIFE, WE TEND TO MAKE FEW ASSUMPTIONS OURSELVES ABOUT THE POSSIBLE THINGS WHICH WOULD HAPPEN IN THE UPCOMING TIMES. THE ASSUMPTIONS MAY EITHER TURN OUT TO BE TRUE OR FALSE DEPENDING UPON THE SITAUTION, BUT AT CERTAIN TIMES, THERE CAN BE A ONE PERCENT WHERE OUR ASSUMPTIONS CAN TURN OUT TO BE TRUE. THIS CAN BE POSSIBLE ONLY WITH THE HELP OF YOUR INNER SUBCONSCIOUS MIND WHICH IS RELATED WITH PARAPSYCHOLOHGY. </h3> 
+</td>
+</tr>
+</table>
+<hr> 
+<h1 style="background-color:Pink"> BRIEF STUDY ABOUT PIAGET'S COGNITIVE DEVELOPMENT: </h1>
+<h1> PIAGET'S ULTIMATE THEORY: </h1>
+<h3> IT EMPHASIZES ABOUT THE MENTAL AND COGNITIVE DEVELOPMENT OF CHILDREN AND THIS CAN HAVE A HUGE IMPACT ON THE ADOLESCENT PHASE OF LIFE. </h3>
+<p> Human brains are set in such a way that it can have the glory and power to change the world but unfortunately, we tend to manipulate it by filling it with myths, superstitions and the worst possibilities </p>
+<table border="2"> 
+	<tr> 
+		<th> STAGES OF COGNITIVE DEVELOPMENT (A 3y/o to a teenager) </th>
+	</tr>
+	<tr> 
+		<td> <h1> 1) UNDERSTANDING THROUGH  SENSES (VISION,TOUCH,HEARING) </h1> </td>
+	</tr>
+	<tr>
+		<td> <h1> 2) LEARNING FROM THE PEOPLE YOU ARE SURROUNDED WITH (PARENTS,ELDER SIBLINGS etc),stage of recogniztaion </h1> </td>
+	</tr>
+	<tr>
+		<td> <h1>  3) LANGUAGE DEVELOPMENT, UNDERSTANDING NAMES OF FAMILIAR PEOPLE AND RECOGNIZES THE VOICE OF THEIRS </h1> </td>
+	</tr>
+	<tr> 
+		<td> <h1> 4) UNDERSTANDS PHRASES AND LANGUAGE OF PEOPLE </h1> </td>
+		<tr>
+			<td> <h1> 5) DEVELOPMENT OF COMPLEX LANGUAGE AND ALL THE SENSES (BY THE AGE OF 10- senses such as taste, vision and hearing)</h1> </td>
+		</tr> 
+		<tr> 
+			<td> <h1> 6) STAGE OF EXPERIMENTATION </h1> (stage where the child starts experimenting things himself and understands various procedures in different aspects). </td>
+		</tr>
+</table>
+<hr> 
+<h1 style="background-color:Pink";> VISUAL REPRESENTATION OF THE ABOVE STAGES</h1>
+<img src="C:\Users\CHANDU\Desktop\ChatGPT Image Nov 7, 2025, 05_39_51 PM.png"; style=width:450px;>
+<img src="C:\Users\CHANDU\Desktop\ChatGPT Image Nov 7, 2025, 05_50_12 PM.png"; style=width:400px;>
+<img src="C:\Users\CHANDU\Desktop\Untitled design.png"; style=width:320px;>
+<hr> 
+<table border="1">
+	<tr> 
+		<td> <h1> POINT TO BE NOTED: THIS DEVELOPMENT OF A CHILD IS VERY CRUCIAL AS IT CAN EITHER HAVE A POSITIVE OR AN ADVERSE IMPACT ON THE CHILD DURING THE PERIOD OF ADOLESCENCE OR EARLY ADULTHOOD.THUS, IT IS ESSENTIAL FOR A CHILD TO BE RAISED WITHIN A POSITIVE ENVIRONMENT; THE ONE WHICH ISN'T TRAUMATIC OR DEPRESSING AT SIGHT. SOME OF THE KEY FACTORS CAN BE: </h1>
+			<br> <h1> 1)TEACH HIM/HER TO RESPECT PEOPLE AND NOT JUST YELL AT THEM </br> </h1>
+			
+			<br> <h1> 2)PHYSICAL ACTIVITY CAN NURTURE THEIR MENTAL AND COGNITIVE GROWTH AS WELL </br> </h1>          			<br> <h1> 3)SHOW AFFECTION AND APPRECIATION WHEN HE/SHE WINS SOMETHING (EVEN SMALL VICTORIES COUNT)</br> </h1>
+		</td>
+	</tr>
+</table>
+<hr> 
+<h1 style="background-color:Pink"> Vygotsky's Theory Of Cognitive Developmet~ </h1>
+<h3> His theory basically emphasizes how a child's cognitive skills can be developed through interactions and various activities, culture and language </h3>
+<h2> Cognitive Development is as important as that of physical and mental development. A very crucial thing can be even more enhanced through communication and public speaking skills.</h2> 
+	<h1 style="background-color:Yellow";> THE IMPORTANCE OF PUBLIC SPEAKING IS EXCEPTIONALLY ENORMOUS AND MASTERING THIS SKILL REQUIRES SELF-CONFIDENCE, FEARLESSNESS AND GUTS. THUS, IT IS EXTREMELY ESSENTIAL FOR AN INDIVIDUAL TO DEVELOP THEIR SKILLS AT A YOUNG AGE IN ORDER TO BOOST THEIR SELF-ESTEEM AND GROWTH. </h1>
+    <img src="C:\Users\CHANDU\Desktop\ChatGPT Image Nov 10, 2025, 06_03_00 PM.png"; alt="Example" align="left" width="450" height="300">
+<h1 style= "background-color:Pink"> IMPORTANCE OF PUBLIC SPEAKING~</h1>
+<h3> The importance of public speaking is enormous. Many people lack this skill and they tend to become nervous and anxious while giving a presentation in front of a huge crowd. Although this fear is familiar, we must overcome it.
+Few ways to overcome this fear:<br>
+1)Firstly, face your fear and practice things that make you feel anxious. <br>
+2)Practice your speech in front of a mirror because the mirror doesn’t judge you. <br> 
+3)Stop being afraid of people’s opinions:<br>
+It is easy to sit in the crowd, give a round of applause, and judge the speaker but it is difficult to take over the stage and give a presentation So just give your best and leave the rest. Practice mindfulness and gratitude:
+The most powerful thing in this universe is prayer; it calms you and enhances your thoughts. It improves your mental health and gives you a positive vibe, which helps you to deliver your speech wonderfully.
+THE MORE YOU SPEAK IS THE MORE YOU OVERCOME THE FEAR OF PUBLIC SPEAKING AND WOULD BE ABLE TO FACE THE WORLD WITH BOLDNESS, BRAVERY AND GUTS. YOU CAN START AWAY YOUR JOURNEY OF PUBLIC SPEAKING BY CONTACTING @bleedingink.gmail.com.  </h3>
+<hr> 
+<h1> IN CONCLUSION, IT ALL DEPENDS UPON THE GUARDIAN AND THE CHILD'S MINDSET OF HOW THE CHILD CAN TURN OUT TO BE; THE BEST OR MISERABLE. THUS, IT IS IMPORTANT TO TAKE AN ACTION RIGHT NOW AND FOCUS ON THE MINDSET. </h1>
+<hr> 	
+<h1 style= "background-color: Pink"> SHORT TERM AND LONG TERM MEMORY </h1>
+	<h1> AN INTERESTING PHENOMENON: HOW SHORT-TERM MEMORY ACTUALLY WORKS? </h1> 
+	<table border="1"> 
+		<tr> 
+			<td> FEW DEFAULT THINGS WHICH COME UNDER SHORT-TERM MEMORY 
+			 1)REMEMBERING A PHONE NUMBER, JUST LONG ENOUGH TO DIAL IT AND THEN FORGETTING IT. (other examples: remembering otp, 3-4 groceries to be brought from the nearby market). </td>
+			</tr>
+			<tr> 
+				<th> <h1>THINGS WHICH CAN DAMAGE YOUR SHORT-TERM MEMORY (STM)~ </th> </h1>
+			</tr>
+			<tr>
+				 <td> <h1>1)SLEEP DEPRIVATION: Sleeping for a really short span of time and restlessness while sleeping. Nightmares may also have a destructive impact, since it reduces your concentration levels. </h1> </td>
+				</tr>
+				<tr>
+			     <td> <h1> 2)CONSTANT EXTERNAL PRESSURE:Such as meeting deadlines eternally, working for longer hours constantly without taking any kind of break. Peer pressure destroys you in all the possible ways</h1> </td>
+			 </tr>
+			 <tr> 
+			    <td> <h1>3)OVERTHINKING: Envisioning the worst or best possible cases and considering them as your final assumptions could not only make the outcome undesrirable but also worsen your short term memory.</h1> </td>
+			</tr>
+			<tr>
+			    <td> <h1>4) MALADAPTIVE DAYDREAMING:Creating fake scenarios [discussed in parapsychology], which brings a gap between concentration and the work which are directly proportional [MANY OF THEM GET CONFUSED WHILE DIFFERENTIATING BETWEEN MALADAPTIVE DAYDREAMING AND ACTUAL MANIFESTATION; (it is given in the below difference] </h1> </td>
+			</tr>
+			<tr>
+			    <td> <h1>5)STRESS:Stressing over little things can have a huge destructive effect on your stm) 
+			</td> </h1>
+		</tr>
+	</table> 
+	<table border="1">s
+    <title>Difference Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+        th, td {
+            border: 2px solid black; /* gives both vertical + horizontal lines */
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* column separator effect */
+        td + td, th + th {
+            border-left: 3px solid #555; /* thicker separator line between columns */
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Difference Between Maladaptive Daydreaming and manifestation</h2>
+
+    <table>
+        <tr>
+        	<h1> 
+            <th>Basis of Difference</th>
+            <th>Maladaptive Day-dreaming</th>
+            <th>Manifestation</th>
+        </tr>
+        <tr>
+            <td>Meaning</td>
+            <td>Creation of fake scenarios just to escape from reality(such scenarios which do not benefit you in either way)(often involuntary) </td>
+            <td> Connected with the universe- Related to prayer and obsession about something (manifesting doesn't drain you mentally infact it acts as a step towards your goal) (it is done intentionally by your soul)</td>
+        </tr>
+        <tr>
+            <td>Constructive effects:</td>
+            <td>Slight sense of stress relief, escape from reality</td>
+            <td>Prodution of oxytocin, can be the first step of reaching your goal</td>
+        </tr>
+        <tr>
+            <td>Destructive effects:</td>
+            <td> Can damage your stm (short term memory), waste your precious time, being unware of your surroundings.</td>
+            <td> Case 1:At certain times, you may feel disappointed despite manifesting your desired things. 
+                 Case 2:You stop working hard towards your another one and only begin manifesting your goal instead of working hard towards it. </td>
+        </tr>
+    </table>
+<hr> 
+<img src="C:\Users\CHANDU\Desktop\ChatGPT Image Nov 10, 2025, 08_55_42 PM.png"; alt="Example" align="left" width="500" height=350>
+<h1> A LONG TERM MEMORY: </h1>
+<h4> Your long-term memory plays a crucial role in your day-day life. Thus, it is essential to learn every single thing precisely with proper understanding of the concept, so it can be stored in your long-term memory. Especially doctors-they are extraordinarily intelligent and skilled, since all the information is stored in their respective long-term memory which could not be stolen nor removed by any kind of agents. </h4>
+<hr> 
+<h1> FACTORS WHICH CAN DESTROY YOUR LONG-TERM MEMORY: </h1>
+<h1> 1)STRESS: Excess stress could impact your long-term in an adverse manner</h1>
+<h1> 2)CONSUMPTION OF ALCOHOL AND DRUGS </h1>
+<h1> 3)MULTI-TASKING FOR NO REASON </h1>
+<h1> 4)SLEEP-DEPRIVATION </h1>
+<hr> 
+<h1 style="background-color:Pink"> BRIEF REVIEW ON COGNITIVE NEUROSCIENCE AND FUNCTIONING OF NEURONS IN A SYSTEMATIC WAY </h1>
+<p>COGNITIVE NEUROSCIENCE IS BASICALLY HOW THE BRAIN CREATES MENTAL PROCESSES, WHICH INCLUDE</p>
+<h1> 1)COGNITION OF THE NERVOUS SYSTEM </h1> <br> 
+<h1> 2)NEURONS- STRUCTURE OF A NEURON, WORKING OF A NEURON, ABILITY OF SYNAPSE AND RESPONSE IN DAY-DAY LIFE</h1> <br> 
+<hr> 
+<h1 style="background-color:Pink";> STRUCTURE OF A NEURON </h1>
+<img src="C:\Users\CHANDU\Desktop\ChatGPT Image Nov 28, 2025, 08_12_33 PM.png"; alt="Example" align="left" width="450" height=300> 
+<h1> THE NERVOUS TISSUE CONSTITUTES THE NERVOUS SYSTEM, IT IS MADE UP OF SPECIALISED ELONGATED CELLS CALLED NEURONS. THERE ARE MILLIONS OF NEURONS PRESENT IN THE BRAIN WHICH TRANSMIT IMPULSES (NERVE SIGNALS) FROM THE BRAIN TO VARIOUS PARTS OF THE BODY.IT IS BECAUSE OF THE NEURONS; WE ARE ABLE TO RESPOND TO CIRCUMSTANCES OR SIGNALS. FOR EXAMPLE: WHEN WE TOUCH A HOT GLASS OF WATER, WE INSTANTLY TAKE OFF OUR HANDS FROM IT DUE TO THE DEGREE OF HOTNESS- HERE, THE NERVE IMPULSES ARE TRANSMITTED FROM THE FINGERS TO THE BRAIN -SPECIFICALLY TERMED AS SENSORY NEURONS.IT SENDS A MESSAGE TO THE BRAIN AND THUS YOU TEND TO REMOVE YOUR HAND IMMEDIATELY, SINCE THE SKIN HAS WITNESSED A BURNING SENSATION. </h1>
+<table border="1">
+	<tr> 
+		<th> PARTS OF A NEURON </th>
+	</tr>
+	<tr> 
+		<td> 1)CYTON/CELL BODY: Cyton consists of a nucleus present in the centre, the cell body also consists of nissl granules </td>
+	</tr> 
+	<tr> 
+		<td> 2) DENDRONS AND DENDRITES: Dendrons are shorter, tapering and branched processes that protrude from the cell body.They receive nerve impulses from other neurons. On the other hand, dendrites are fine and terminal branches that emerge from the dendrons, they transmit nerve impulses to the dendrons and the cell body as well. </td>
+	</tr>
+	<tr> 
+		<td> 3)THE MYELIN SHEATH: Oftentimes, it acts as an insulator and prevents the mixing of nerve impulses. </td>
+	</tr>
+	<tr>  
+		<td> 4)AXON: An axon is a long elongated structure which is composed of a myelin sheath; axon serves as a pathway for the transmission of impulses either from brain to various parts of the body or from the different parts of the body to the brain.</td>
+	</tr>
+	<tr> 
+		<td> 5)THE AXON ENDINGS: They contain synaptic vessels which store the neurotransmitters, when an electric signal reaches this- the synaptic vessel activates the neurotransmitter. </td>
+	</tr>
+	<tr> 
+	</tr>
+</table>
+<hr> 
+<h1> FUNCTIONING OF NEURON WITH RESPECT TO COGNITION: </h1>
+<hr> 
+<h1> 1)RECEPTION OF INFORMATION~ WE OBTAIN INFORMATION THROUGH SENSES AND FEW BY OUR DEEPEST INSTINCTS AS WELL. THESE MESSAGES ARE OBTAINED BY THE NERVE ENDINGS AND ARE TRANSMITTED TO THE CELL BODY; WHERE IT PROCESSES THE INFORMATION AND THE AXON ACTS LIKE A PATHWAY. </h1>
+<h1> 2)DECODING~ THE RECEIVER INTERPRETS THE MESSAGE TO CONVERT IT AS A THOUGHT, AN IDEA OR A LESSON. </h1>
+<h1> 3)UNDERSTANDING~THE USER UNDERSTANDS THE INFORMATION AND STORES IT EITHER IN YOUR SHORT/LONG TERM MEMORY DEPENDING UPON THE WAY YOU INPUT THE INFORMATION </h1> 
+<hr>
+<h1> COMMON NEUROTRANSMITTERS INCLUDE-</h1>
+<h3> DOPAMINE, SEROTONIN, ACETYLCHOLINE, GLUTAMATE AND GABA </h3>
+<hr> 
+<h1> In this way, the strengthening of synaptic connections helps form short and long term memories </h1>
+<h1> PERCEPTION: PATTERNS OF NEURAL ACTIVITY HELP THE BRAIN INTERPRET SIGHTS, SOUNDS AND OTHER SENSATIONS</h1>
+<h1> DECISION MAKING: Coordinated neural networks enable reasoning, planning and judgement. </h1>
+</head>
+</html>
